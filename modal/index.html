@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="css/btn.css" />
+		<link rel="stylesheet" href="css/modal.css" />
+		<script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
+		<script type="text/javascript" src="js/modal.js" ></script>
+		<title></title>
+	</head>
+	<body>
+		<div class="modal">
+			<div class="modal-head">
+				<div class="title">
+					提示框
+				</div>
+			</div>
+			<div class="modal-body">
+				...<br />
+				在此填写内容<br>
+				...
+			</div>
+			<div class="modal-foot">
+				<input class="btn btnReset" type="button" value="取 消" />
+				<input class="btn btnSubmit" type="button" value="提 交" />
+			</div>
+		</div>
+		
+		<p>ces</p>
+		
+		<br />
+		<br />
+		<input class="btn btnshow" type="button" value="点击显示modal" />
+		
+		<p>nihao
+		   或许都知道，目前的webkit核心浏览器是支持box-shadow属性的，但是我们看demo页面的效果，在chrome或是Safari下稍微次了些，为何？这是由于目前webkit核心浏览器不支持box-shadow中的inset属性，转换成photoshop中图层样式的术语就是“内阴影”，目前Firefox3.6+以及Opera10.5+都是支持box-shadow的，而且支持box-shadow的内阴影效果；仅仅支持内阴影效果也无法实现如此逼真的window7 UI界面效果，还有一点很重要，就是对box-shadow多阴影的支持，就是您可以添加多个阴影属性，浏览器会自动将这些效果重叠，于是可以实现各种光晕，渐变，五彩斑斓，细腻夺目的效果。
+
+例如使用如下的一段样式：
+
+-webkit-border-radius: 40px;
+-webkit-box-shadow: 0 0 1px #fff, 0 0 3px #000, 0 0 3px #000;
+-moz-border-radius: 40px;
+-moz-box-shadow: 0 0 1px #fff, 0 0 3px #000, 0 0 3px #000, inset 0 1px #fff, inset 0 12px rgba(255,255,255,0.15), inset 0 4px 10px #cef, inset 0 22px 5px #0773b4, inset 0 -5px 10px #0df;
+
+height: 34px;
+width: 80px;
+border-radius: 40px;
+background: #034a76;
+box-shadow: 0 0 1px #fff, 0 0 3px #000, 0 0 3px #000, inset 0 1px #fff, inset 0 12px rgba(255,255,255,0.15), inset 0 4px 10px #cef, inset 0 22px 5px #0773b4, inset 0 -5px 10px #0df;
+
+
+		</p>
+	</body>
+</html>
